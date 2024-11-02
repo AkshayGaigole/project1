@@ -35,6 +35,9 @@ object first {
       println(i)
     }
 
+    for(i<-1 until 10 by 3){
+      println(i)
+    }
 
 
   }
