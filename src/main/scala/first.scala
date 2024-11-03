@@ -78,12 +78,17 @@ object first {
 //
 //        mylist.foreach(println)
 
-        for(i <- 0 until mylist.length){
-          println(mylist(i))
+//        for(i <- 0 until mylist.length){
+//          println(mylist(i))
+//        }
+//        println(" ")
+//        println(mylist.head)
+//        println(mylist.tail)
+
+        val array1=Array(1,2,3,3,4,5)
+        for(element <- array1){
+          println(element)
         }
-        println(" ")
-        println(mylist.head)
-        println(mylist.tail)
 
 
 
